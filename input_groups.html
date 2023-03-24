@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Groups</title>
+    <link
+    rel="shortcut icon"
+    href="./images/bootstrap5.jpeg"
+    type="image/x-icon"
+  />
+  <!-- Css bootstrap5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <!-- js bootstrap5 -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label for="amount" class="form-label">Amount</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" name="amount" id="amount" class="form-control">
+                <div class="input-group-text">.99</div>
+            </div>
+            
+            <label for="add" class="form-label">Add</label>
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input type="number" name="add" id="add" class="form-control">
+                <button class="btn btn-primary">+</button>
+            </div>
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
